@@ -27,10 +27,16 @@
     border-color: black;
     border-style: solid;
 }
-.logout-btn {
+.admin-panel, .admin-panel:visited {
+    text-decoration: none;
+    color: inherit;
+}
+.logout-btn, .logout-btn:visited {
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
+    text-decoration: none;
+    color: inherit;
 }
 .left-bar {
     display: flex;
