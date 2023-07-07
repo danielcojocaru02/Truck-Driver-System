@@ -89,3 +89,17 @@
     text-align: center;
     width: 100%;
 }
+.footer-section {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: gray;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+}
+.copyright-class {
+
+}
