@@ -38,6 +38,10 @@
     text-decoration: none;
     color: inherit;
 }
+.middle-section {
+    display: flex;
+    position: relative;
+}
 .left-bar {
     display: flex;
     flex-direction: column;
@@ -74,4 +78,14 @@
 .left-bar button:active {
     background-color: rgb(158, 110, 42, .6);
 
+}
+.content-class {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    opacity: 0.8;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
 }
