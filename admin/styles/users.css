@@ -85,10 +85,13 @@
     position: relative;
     background-color: white;
     opacity: 0.8;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+    justify-content: left;
     width: 100%;
+    padding: 20px;
+}
+ol {
+    padding-left: 20px;
+    font-size: 20px;
 }
 .search-class {
     width: 50%;
