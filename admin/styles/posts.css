@@ -27,7 +27,7 @@
     border-color: black;
     border-style: solid;
 }
-.admin-panel, .admin-panel:visited {
+.admin-panel, .admin-panel:visited, a, a:visited {
     text-decoration: none;
     color: inherit;
 }
