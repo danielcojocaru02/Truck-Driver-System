@@ -89,9 +89,22 @@
     width: 100%;
     padding: 20px;
 }
-ol {
-    padding-left: 20px;
-    font-size: 20px;
+
+.content-class li {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 10px;
+    width: 600px;
+    align-items: center;
+}
+.content-class h1 button {
+    vertical-align: middle;
+}
+.content-class ol button {
+   width: 50%;
+   vertical-align: top;
+   display: inline-block;
+   text-align: center;
 }
 .search-class {
     width: 50%;
