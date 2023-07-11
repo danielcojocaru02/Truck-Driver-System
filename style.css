@@ -122,4 +122,79 @@
     color: gray;
 }
 
+.salaries-section {
+   
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
 
+.salaries-img {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .5);
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+.img-opacity {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .7);
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 800px;
+}
+
+.salaries-tit-descr {
+    position: absolute;
+    display: block;
+    width: 100%;
+    line-height: 0px;
+    margin-top: 20px;
+}
+.salaries-title {
+    font-size: 36px;
+    text-align: center;
+    color: white;
+}
+.salaries-description {
+    text-align: center;
+    color: gray;
+}
+.salaries-box {
+    display: block;
+    position: absolute;
+}
+.salaries-grid {
+    display: grid;
+    position: absolute;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-title {
+    color: white;
+}
+.salaries-box {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+}
+
+.salaries-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: absolute;
+    border: 3px;
+    padding: 30px;
+    border-color: #ffffff;
+
+}
+.salaries-grid p {
+    color: white;
+    position: absolute;
+}
