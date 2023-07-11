@@ -53,4 +53,12 @@
     font-weight: bold;
     margin-top: 50px;
     cursor: pointer;
+    opacity: 0.9;
+    transition: 0.15s;
+}
+.header-btn:hover {
+    background-color: #b1b1b0;
+}
+.header-btn:active {
+    background-color: #d2d2d2;
 }
