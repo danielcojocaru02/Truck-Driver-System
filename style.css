@@ -123,15 +123,13 @@
 }
 
 .salaries-section {
-   
     position: relative;
     display: flex;
     justify-content: center;
 }
 
 .salaries-img {
-    position: absolute;
-    background-color: rgba(0, 0, 0, .5);
+    position: relative;
     top: 0;
     left: 0;
     right: 0;
@@ -146,8 +144,9 @@
     top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
     width: 100%;
-    height: 800px;
+    height: auto;
 }
 
 .salaries-tit-descr {
@@ -155,7 +154,7 @@
     display: block;
     width: 100%;
     line-height: 0px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .salaries-title {
     font-size: 36px;
@@ -166,35 +165,45 @@
     text-align: center;
     color: gray;
 }
-.salaries-box {
-    display: block;
-    position: absolute;
-}
 .salaries-grid {
+    
     display: grid;
-    position: absolute;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
     grid-template-columns: 1fr 1fr 1fr;
-}
-.grid-title {
-    color: white;
+    row-gap: 5px;
+    column-gap: 200px;
+   
 }
 .salaries-box {
+    font-family: Inknut Antiqua;
     display: flex;
-    position: absolute;
-    justify-content: center;
-    text-align: center;
-}
-
-.salaries-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    position: absolute;
-    border: 3px;
-    padding: 30px;
-    border-color: #ffffff;
-
-}
-.salaries-grid p {
     color: white;
-    position: absolute;
+    border: 3px solid #505050;
+    height: 400px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    padding: 20px;
+}
+.salaries-box-title {
+    font-size: 24px;
+}
+
+.salaries-circle {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #505050;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+.salaries-circle p {
+    font-size: 24px;
+}
+.salaries-li{
+    height: 50px;
 }
