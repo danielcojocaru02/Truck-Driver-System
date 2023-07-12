@@ -207,3 +207,43 @@
 .salaries-li{
     height: 50px;
 }
+
+.staff-section {
+    display: flex;
+    position: relative;
+    background-color: #EEE;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.staff-t-d {
+    margin-top: 70px;
+    line-height: 0;
+    width: 100%;
+}
+.staff-title {
+    color: black;
+    font-size: 36px;
+}
+.staff-description {
+    color: gray;
+}
+.staff-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.staff-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    line-height: 0;
+    margin-bottom: 70px;
+}
+.staff-box p {
+    color: gray;
+    margin-bottom: 5px;
+}
+.staff-avatar {
+    width: 300px;
+}
