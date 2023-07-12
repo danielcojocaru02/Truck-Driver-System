@@ -247,3 +247,60 @@
 .staff-avatar {
     width: 300px;
 }
+.footer-section {
+    position: relative;
+    display: flex;
+    
+}
+.footer-img-bg {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    filter: blur(3px);
+}
+.footer-img-bg-opacity {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .4);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    
+
+}
+.footer-contact {
+    width: 100px;
+    position: absolute;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    right: 10%;
+}
+.footer-copyright {
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    color: white;
+    line-height: 0;
+}
+.developer {
+    display: flex;
+    position: absolute;
+    color: black;
+    width: 120px;
+    right: 1%;
+    bottom: 5px;
+    line-height: 0;
+    
+}
+.developer:hover {
+    color: red;
+    transition:0.15s
+}
