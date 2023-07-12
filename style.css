@@ -44,7 +44,7 @@
 }
 
 .header-btn {
-    background-color: #979794;
+    background-color: #d2d2d2;
     border: 1px;
     border-style: solid;
     padding: 10px;
@@ -57,10 +57,10 @@
     transition: 0.15s;
 }
 .header-btn:hover {
-    background-color: #b1b1b0;
+    background-color: #e4e4e4;
 }
 .header-btn:active {
-    background-color: #d2d2d2;
+    background-color: #ffffff;
 }
 
 .blog-section {
