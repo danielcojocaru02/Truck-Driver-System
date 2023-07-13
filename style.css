@@ -282,6 +282,16 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+@media (max-width: 1200px) {
+    .staff-grid {
+    grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 750px) {
+    .staff-grid {
+    grid-template-columns: 1fr;
+    }
+}
 .staff-box {
     display: flex;
     flex-direction: column;
@@ -289,6 +299,9 @@
     margin-top: 70px;
     line-height: 0;
     margin-bottom: 70px;
+}
+@media (max-width: 1200px) {
+
 }
 .staff-box p {
     color: gray;
