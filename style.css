@@ -89,10 +89,20 @@
     column-gap: 50px;
     margin-left: 50px;
     margin-right: 50px;
-    padding-bottom: 70px;
-    
-    
+    padding-bottom: 70px;  
 }
+
+@media (max-width: 1000px) {
+    .blog-posts {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 650px) {
+    .blog-posts {
+        grid-template-columns: 1fr;
+    }
+}
+
 .posts-grid {
     font-family: Inknut Antiqua;
     display: flex;
