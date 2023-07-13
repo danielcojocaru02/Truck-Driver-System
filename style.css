@@ -130,6 +130,16 @@
    display: flex;
    height: 90vh;
 }
+@media (max-width: 1000px) {
+    .salaries-section {
+        height: 130vh;
+    }
+}
+@media (max-width: 650px) {
+    .salaries-section {
+        height: 180vh;
+    }
+}
 
 .salaries-img-bg {
     position: relative;
@@ -160,6 +170,16 @@
     line-height: 0px;
     margin-top: 50px;
 }
+@media (max-width: 1260px) {
+    .salaries-tit-descr {
+        line-height: 20px;
+    }
+}
+@media (max-width: 650px) {
+    .salaries-tit-descr {
+        line-height: 20px;
+    }
+}
 .salaries-title {
     font-size: 36px;
     text-align: center;
@@ -179,7 +199,16 @@
     row-gap: 5px;
     column-gap: 200px;
     margin-bottom: 0;
-   
+}
+@media (max-width: 1000px) {
+    .salaries-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 650px) {
+    .salaries-grid {
+        grid-template-columns: 1fr;
+    }
 }
 .salaries-box {
     font-family: Inknut Antiqua;
@@ -192,6 +221,22 @@
     align-items: center;
     margin-top: 70px;
     padding: 20px;
+}
+@media (max-width: 1000px) {
+    .salaries-box {
+    padding: 10px;
+    row-gap: 2px;
+    column-gap: 10px;
+    height: 300px;
+    }
+}
+@media (max-width: 650px) {
+    .salaries-box {
+    padding: 5px;
+    row-gap: 2px;
+    column-gap: 10px;
+    height: 300px;
+    }
 }
 .salaries-box-title {
     font-size: 24px;
