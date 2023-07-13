@@ -345,6 +345,18 @@
     color: white;
     right: 10%;
 }
+@media (max-width: 1200px){
+.footer-contact {
+    padding: 10px;
+    padding-left: 30px;
+}
+.footer-contact h3 {
+    font-size: 16px;
+}
+.footer-contact p {
+    font-size: 14px
+}
+}
 .footer-copyright {
     width: 100%;
     position: absolute;
