@@ -27,7 +27,7 @@
     border-color: black;
     border-style: solid;
 }
-.user-panel, .user-panel:visited, a, a:visited {
+.admin-panel, .admin-panel:visited, a, a:visited {
     text-decoration: none;
     color: inherit;
 }
@@ -85,9 +85,22 @@
     position: relative;
     background-color: white;
     opacity: 0.8;
-    justify-content: center;
-    text-align: center;
+    justify-content: left;
     width: 100%;
+    padding: 20px;
+}
+ol {
+    padding-left: 20px;
+    font-size: 20px;
+}
+.search-class {
+    width: 50%;
+    height: auto;
+    border-radius: 25px;
+    border-style: solid;
+    height: 15px;
+    padding: 10px;
+    border-color: rgb(158, 110, 42);
 }
 .footer-section {
     display: flex;
@@ -98,8 +111,4 @@
     bottom: 0;
     left: 0;
     right: 0;
-   
-}
-.copyright-class {
-
 }
